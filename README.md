@@ -3,9 +3,7 @@
 This documentation provides a comprehensive guide for using the template Influencer Portfolio made with React. The template is designed to showcase the portfolio of an influencer or content creator. It includes various sections to highlight different aspects of the influencer's work, such as biography, social media presence, collaborations, and more.
 
 ## Demo
-
-![Influencer Demo](https://i.ibb.co/cb6B47D/Screenshot.png)
-
+![Influencer Demo](/components/assets/images/Screenshot.png)
 
 ## Table of Contents
 
