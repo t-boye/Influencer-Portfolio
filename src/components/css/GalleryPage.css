@@ -1,0 +1,35 @@
+/* Fade-in animation for images */
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Fade-out animation for images */
+.fade-out {
+  animation: fadeOut 0.5s ease-out;
+}
+.modal.fade .modal-body {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.modal.show .modal-body.fade-in {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

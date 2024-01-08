@@ -1,0 +1,28 @@
+.table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #333;
+  border-collapse: collapse;
+  border: none;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.table td {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.table td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
